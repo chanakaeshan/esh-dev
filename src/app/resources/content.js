@@ -9,7 +9,7 @@ const person = {
   role: "Software Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  // location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Sinhala"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -61,12 +61,12 @@ const home = {
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
-  // subline: (
-  //   <>
-  //     I'm Chanaka, a software engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-  //     <br /> user experiences. After hours, I build my own projects.
-  //   </>
-  // ),
+  subline: (
+    <>
+      I'm Chanaka, a software engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      <br /> user experiences. After hours, I build my own projects.
+    </>
+  ),
 };
 
 const about = {
